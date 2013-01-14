@@ -1,7 +1,10 @@
 # PanoStitch
 
-This code implements OpenCV based panoramic image stitcher. Test images along with the expected output are included in here as well. If you have built OpenCV using cmake, 
-then follow the steps below to get it up and running:
+This code implements OpenCV based panoramic image stitcher. Test input images along with 
+the expected output are included here as well. There is a file called "CMakeLists.txt". 
+This file will used to build the project (if you have built OpenCV using cmake). If not, 
+just use the .cpp file in your project and build it. To build using command line, follow 
+the steps below to get it up and running:
 
 	$ make
 	$ ./main IMG_0013.JPG IMG_0014.JPG IMG_0015.JPG IMG_0016.JPG
