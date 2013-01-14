@@ -4,7 +4,6 @@ This code implements OpenCV based panoramic image stitcher. Test images along wi
 then follow the steps below to get it up and running:
 
 	$ make
-
 	$ ./main IMG_0013.JPG IMG_0014.JPG IMG_0015.JPG IMG_0016.JPG
 
 The output should be stored in "panoResult.jpg". You can change the output file name using the following flag:
