@@ -6,6 +6,7 @@ This file will used to build the project (if you have built OpenCV using cmake).
 just use the .cpp file in your project and build it. To build using command line, follow 
 the steps below to get it up and running:
 
+	$ cmake .
 	$ make
 	$ ./main IMG_0013.JPG IMG_0014.JPG IMG_0015.JPG IMG_0016.JPG
 
